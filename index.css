@@ -16,9 +16,12 @@ img {
   background-size:     cover;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  max-width: 100%;
 }
 
 h1 {
+  font-size: 35px;
+  text-align: center;
   text-shadow: 2px 2px 4px white, -5px 5px 3px orange, -2px 8px 5px black;
 }
 
@@ -49,9 +52,15 @@ h2 {
 #content {
   margin-left: 10%;
   margin-right: 10%;
-}
-
-p {
   background-color: white;
   padding:2%;
+  padding-top: 1%;
+}
+
+footer {
+  text-align: bottom;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
 }
